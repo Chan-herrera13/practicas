@@ -1,0 +1,103 @@
+Tunez52:practica2 alumno$ cd FDP
+Tunez52:FDP alumno$ rm archivo
+rm: archivo: No such file or directory
+Tunez52:FDP alumno$ rm archivo/
+rm: archivo/: No such file or directory
+Tunez52:FDP alumno$ ls
+archivo.txt
+Tunez52:FDP alumno$ rm archivo.txt/
+rm: archivo.txt/: Not a directory
+Tunez52:FDP alumno$ rm archivo.txt
+Tunez52:FDP alumno$ ls
+Tunez52:FDP alumno$ cd ..
+Tunez52:practica2 alumno$ rm -d FDP/
+Tunez52:practica2 alumno$ ls
+algebra	calculo	fisica	quimica
+Tunez52:practica2 alumno$ rm -d algebra/
+Tunez52:practica2 alumno$ ls
+calculo	fisica	quimica
+Tunez52:practica2 alumno$ cd calculo/
+Tunez52:calculo alumno$ cd ..
+Tunez52:practica2 alumno$ ls
+calculo	fisica	quimica
+Tunez52:practica2 alumno$ mkdir algebra/
+Tunez52:practica2 alumno$ ls
+algebra	calculo	fisica	quimica
+Tunez52:practica2 alumno$ mkdir fdp/
+Tunez52:practica2 alumno$ ls
+algebra	calculo	fdp	fisica	quimica
+Tunez52:practica2 alumno$ cd algebra
+Tunez52:algebra alumno$ touch archivo.txt
+Tunez52:algebra alumno$ ls
+archivo.txt
+Tunez52:algebra alumno$ ls
+archivo.txt
+Tunez52:algebra alumno$ cd ..
+Tunez52:practica2 alumno$ ls
+algebra	calculo	fdp	fisica	quimica
+Tunez52:practica2 alumno$ cd algebra
+Tunez52:algebra alumno$ rm archivotxt/
+rm: archivotxt/: No such file or directory
+Tunez52:algebra alumno$ rm archivo.txt
+Tunez52:algebra alumno$ ls
+Tunez52:algebra alumno$ cd ..
+Tunez52:practica2 alumno$ ls
+algebra	calculo	fdp	fisica	quimica
+Tunez52:practica2 alumno$ touch archivo.txt
+Tunez52:practica2 alumno$ ls
+algebra		archivo.txt	calculo		fdp		fisica		quimica
+Tunez52:practica2 alumno$ ls
+algebra		archivo.txt	calculo		fdp		fisica		quimica
+Tunez52:practica2 alumno$ cat archivo.txt
+Tunez52:practica2 alumno$ echo "herrera carrillo cristhian 317094662" >> archivo.txt
+Tunez52:practica2 alumno$ cat archivo.txt
+herrera carrillo cristhian 317094662
+Tunez52:practica2 alumno$ cd algebra/
+Tunez52:algebra alumno$ cp ../archivo.txt
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+Tunez52:algebra alumno$ cp ../archivo.txt .
+Tunez52:algebra alumno$ ls
+archivo.txt
+Tunez52:algebra alumno$ cat archivo.txt 
+herrera carrillo cristhian 317094662
+Tunez52:algebra alumno$ cd ..
+Tunez52:practica2 alumno$ ls
+algebra		archivo.txt	calculo		fdp		fisica		quimica
+Tunez52:practica2 alumno$ cd calculo/
+Tunez52:calculo alumno$ cp ../archivo.txt .
+Tunez52:calculo alumno$ ls
+archivo.txt
+Tunez52:calculo alumno$ cd ..
+Tunez52:practica2 alumno$ ls
+algebra		archivo.txt	calculo		fdp		fisica		quimica
+Tunez52:practica2 alumno$ cd fdp
+Tunez52:fdp alumno$ cp ../archivo.txt .
+Tunez52:fdp alumno$ ls
+archivo.txt
+Tunez52:fdp alumno$ cd ..
+Tunez52:practica2 alumno$ ls
+algebra		archivo.txt	calculo		fdp		fisica		quimica
+Tunez52:practica2 alumno$ cd fisica
+Tunez52:fisica alumno$ cp ../archivo.txt .
+Tunez52:fisica alumno$ ls
+archivo.txt
+Tunez52:fisica alumno$ cd ..
+Tunez52:practica2 alumno$ ls
+algebra		archivo.txt	calculo		fdp		fisica		quimica
+Tunez52:practica2 alumno$ cd quimica
+Tunez52:quimica alumno$ cp ../archivo.txt .
+Tunez52:quimica alumno$ ls
+archivo.txt
+Tunez52:quimica alumno$ cd ..
+Tunez52:practica2 alumno$ ls
+algebra		archivo.txt	calculo		fdp		fisica		quimica
+Tunez52:practica2 alumno$ rm archivo.txt
+Tunez52:practica2 alumno$ ls
+algebra	calculo	fdp	fisica	quimica
+Tunez52:practica2 alumno$ cd fisica
+Tunez52:fisica alumno$ ls
+archivo.txt
+Tunez52:fisica alumno$ cat archivo.txt 
+herrera carrillo cristhian 317094662
+Tunez52:fisica alumno$ 
