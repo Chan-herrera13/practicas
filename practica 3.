@@ -1,0 +1,28 @@
+Dado un precio, calcular su descuento considerando que si el precio es mayor a 100 su descuento será de 10%, de otro modo, solo descontar un 25%
+
+1. Leer dato ingresado.
+2. Si: dato < 100 multiplicar (dato*0.02). Y el resultado se le restara al valor original.
+3. Si: dato > 100 multiplicar (dato*0.10).  Y el resultado se le restara al valor original.
+4. Impresión de resultado final.
+
+
+Un algoritmo que lea dos numero y calcule su suma, su resta, multiplicación y división de esos dos numero
+
+1. Leer 2 datos ingresados.
+2. Realizar la suma de los 2 números tal que : (x+y=za)
+3. realizar la resta de los 2 números tal que: (x-y=zb)
+4. realizar la multiplicación de los 2 números tal que: (x*y=zc)
+5. Realizar la división de los 2 números tal que: (x/y=zd)
+6. Imprimir los números za, zb, zc, zd, en ese orden.
+7. x, y, za, zb, zc, zd E R. 
+
+
+Leer 3 números que van a denotar una fecha (día, mes y año) y verificar si es una fecha valida.
+
+1. Leer numero 1, numero 2, numero 3.
+2. Numero 1 =dia; numero 2= mes; numero 3= año;
+3. Excepciones: 
+- Numero 1 NO puede ser > 31; si el numero 2 es = 2, numero 1 NO puede ser > 28. Numero 1 NO puede ser un numero negativo.  
+- Numero 2 NO puede ser > 12. Numero 2 NO puede ser un numero negativo.  
+- numero 3 NO puede ser un numero negativo.  
+* Imprimir resultados con orden: numero 1, numero 2, numero 3.
